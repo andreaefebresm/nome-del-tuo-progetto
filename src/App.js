@@ -1,15 +1,17 @@
 import React from 'react';
-import {Grid2, Typography, Box } from '@mui/material';
+import {Grid2, Typography, Box, ImageList, ImageListItem} from '@mui/material';
 
 const App = () => {
     return (
       <Box sx={{ flexGrow: 1 }}>
       <Grid2 container spacing={2}>
+
         <Grid2 size={{ xs: 12, md: 5, lg: 4 }}>
           <Typography>Email subscribe section</Typography>
         </Grid2>
-        <Grid2 container spacing={4} size={{ xs: 12, md: 7, lg: 8 }}>
-          <Grid2 size={{ xs: 6, lg: 3 }}>
+
+        <Grid2 container spacing={2} size={{ xs: 12, md: 7, lg: 8 }}>
+          <Grid2 size={{ xs: 12, md: 6, lg: 4 }}>
             <Typography>
               <Box
                 id="category-a"
@@ -24,7 +26,7 @@ const App = () => {
               </Box>
             </Typography>
           </Grid2>
-          <Grid2 size={{ xs: 6, lg: 3 }}>
+          <Grid2 size={{ xs: 12, md: 6, lg: 4 }}>
             <Typography>
               <Box
                 id="category-b"
@@ -32,14 +34,12 @@ const App = () => {
               >
                 Category B
               </Box>
-              <Box component="ul" aria-labelledby="category-b" sx={{ pl: 2 }}>
-                <li>Link 2.1</li>
-                <li>Link 2.2</li>
-                <li>Link 2.3</li>
+              <Box component="image" aria-labelledby="category-b" sx={{ pl: 2 }}>
+                <image src="./images/Group 3.png"></image>
               </Box>
             </Typography>
           </Grid2>
-          <Grid2 size={{ xs: 6, lg: 3 }}>
+          <Grid2 size={{ xs: 12, md: 6,lg: 4 }}>
             <Typography>
               <Box
                 id="category-c"
@@ -54,22 +54,8 @@ const App = () => {
               </Box>
             </Typography>
           </Grid2>
-          <Grid2 size={{ xs: 6, lg: 3 }}>
-            <Typography>
-              <Box
-                id="category-d"
-                sx={{ fontSize: '12px', textTransform: 'uppercase' }}
-              >
-                Category D
-              </Box>
-              <Box component="ul" aria-labelledby="category-d" sx={{ pl: 2 }}>
-                <li>Link 4.1</li>
-                <li>Link 4.2</li>
-                <li>Link 4.3</li>
-              </Box>
-            </Typography>
-          </Grid2>
         </Grid2>
+
         <Grid2
           container
           justifyContent="space-between"
@@ -97,5 +83,7 @@ const App = () => {
     </Box>
     );
 };
+
+
 
 export default App;
