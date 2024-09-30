@@ -1,78 +1,45 @@
-import React from "react";
-import image from "./images/Group 3-1.png";
-import maskGroup7 from "./images/Group 3-2.png";
-import screenshot20240913Alle1809341 from "./images/Group 3-3.png";
-import "./App.css";
+import React from 'react';
+import {Grid2, Typography } from '@mui/material';
 
-export const App = () => {
-  return (
-    <div className="HOMEPAGE">
-      <div className="div">
-        <div className="text-wrapper">AEFM</div>
-        <div className="group" />
-        <div className="group-2" />
-        <div className="group-3" />
-        <div className="group-4" />
-        <div className="mask-group-wrapper">
-          <div className="mask-group">
-            <div className="overlap-group">
-              <div className="dsc" />
-              <img className="img" alt="Mask group" src={maskGroup7} />
-            </div>
-          </div>
-        </div>
-        <div className="div-wrapper">
-          <div className="mask-group">
-            <div className="overlap-group">
-              <div className="dsc" />
-              <img className="img" alt="Mask group" src={image} />
-            </div>
-          </div>
-        </div>
-        <div className="group-5" />
-        <div className="group-6" />
-        <div className="group-7">
-          <div className="mask-group">
-            <div className="overlap-group">
-              <div className="dsc-2" />
-              <img className="img" alt="Screenshot" src={screenshot20240913Alle1809341} />
-            </div>
-          </div>
-        </div>
-        <div className="group-8">
-          <div className="mask-group">
-            <div className="overlap-group">
-              <div className="dsc-2" />
-              <img className="img" alt="Screenshot" src={screenshot20240913Alle1809341} />
-            </div>
-          </div>
-        </div>
-        <div className="group-9" />
-        <div className="group-10" />
-        <p className="ABOUT-ME-lorem-ipsum">
-          ABOUT ME
-          <br />
-          Lorem ipsum dolor sit amet consectetur. Molestie ac posuere at fames venenatis nulla eget molestie adipiscing.
-          Tristique eros tellus enim hendrerit. Nullam in morbi mattis eu. Ut quis urna convallis nascetur libero elit
-          tincidunt cursus.
-        </p>
-        <div className="INFORMATION-DESIGN">
-          INFORMATION DESIGN
-          <br />
-          WEBSITE DEVELOPMENT
-          <br />
-          EDITORIAL DESIGN
-          <br />
-          BRANDING
-          <br />
-          PHYSICAL
-        </div>
-        <div className="text-wrapper-2">COPYRIGHT 2024</div>
-        <div className="text-wrapper-3">PIVA 10170000000</div>
-        <div className="text-wrapper-4">PIVA 10170000000</div>
-      </div>
-    </div>
-  );
+const App = () => {
+    return (
+        <Grid2 container spacing={2}>
+            {/* Prime 3 colonne */}
+            <Grid2 item xs={12} sm={3}>
+                <Typography variant="body1">HELLO</Typography>
+                <Typography variant="body1">Contenuto della colonna 2</Typography>
+                <Typography variant="body1">Contenuto della colonna 3</Typography>
+            </Grid2>
+            {/* 9 colonne per le immagini */}
+            <Grid2 item xs={12} sm={3}>
+                <img src="../images/Group 3-1.png" alt="Immagine 1" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine2.jpg" alt="Immagine 2" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine3.jpg" alt="Immagine 3" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine4.jpg" alt="Immagine 4" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine5.jpg" alt="Immagine 5" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine6.jpg" alt="Immagine 6" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine7.jpg" alt="Immagine 7" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine8.jpg" alt="Immagine 8" style={{ width: '100%' }} />
+            </Grid2>
+            <Grid2 item xs={12} sm={3}>
+                <img src="immagine9.jpg" alt="Immagine 9" style={{ width: '100%' }} />
+            </Grid2>
+        </Grid2>
+    );
 };
 
 export default App;
