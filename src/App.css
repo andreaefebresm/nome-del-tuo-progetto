@@ -1,0 +1,240 @@
+.HOMEPAGE {
+  background-color: #fff9f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.HOMEPAGE .div {
+  background-color: #fff9f4;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.HOMEPAGE .text-wrapper {
+  color: #ff4b00;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+
+.HOMEPAGE .group {
+  background-image: url(./images/Group\ 3-1.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 375px;
+  position: absolute;
+  top: 146px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-2 {
+ background-image: url(./images/Group\ 3-2.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 375px;
+  position: absolute;
+  top: 1008px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-3 {
+  background-image: url(./images/Group\ 3-4.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 375px;
+  position: absolute;
+  top: 577px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-4 {
+  background-image: url(./images/Group\ 3-4.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 375px;
+  position: absolute;
+  top: 1439px;
+  width: 335px;
+}
+
+.HOMEPAGE .mask-group-wrapper {
+  height: 411px;
+  left: 730px;
+  position: absolute;
+  top: 146px;
+  width: 335px;
+}
+
+.HOMEPAGE .mask-group {
+  height: 411px;
+}
+
+.HOMEPAGE .overlap-group {
+  height: 411px;
+  position: relative;
+  width: 335px;
+}
+
+.HOMEPAGE .dsc {
+  background-color: #d9d9d9;
+  height: 396px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.HOMEPAGE .img {
+  height: 411px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.HOMEPAGE .div-wrapper {
+  height: 411px;
+  left: 730px;
+  position: absolute;
+  top: 1008px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-5 {
+  background-image: url(./images/Group\ 3.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 730px;
+  position: absolute;
+  top: 577px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-6 {
+  background-image: url(./images/Group\ 3-5.png);
+  background-size: 100% 100%;
+  height: 411px;
+  left: 730px;
+  position: absolute;
+  top: 1439px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-7 {
+  height: 411px;
+  left: 1085px;
+  position: absolute;
+  top: 146px;
+  width: 335px;
+}
+
+.HOMEPAGE .dsc-2 {
+  background-color: #d9d9d9;
+  height: 396px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-8 {
+  height: 411px;
+  left: 1085px;
+  position: absolute;
+  top: 1008px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-9 {
+  background-image: url();
+  background-size: 100% 100%;
+  height: 411px;
+  left: 1085px;
+  position: absolute;
+  top: 577px;
+  width: 335px;
+}
+
+.HOMEPAGE .group-10 {
+  background-image: url();
+  background-size: 100% 100%;
+  height: 411px;
+  left: 1085px;
+  position: absolute;
+  top: 1439px;
+  width: 335px;
+}
+
+.HOMEPAGE .ABOUT-ME-lorem-ipsum {
+  color: #000000;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 927px;
+  width: 243px;
+}
+
+.HOMEPAGE .INFORMATION-DESIGN {
+  color: #000000;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 145px;
+  width: 243px;
+}
+
+.HOMEPAGE .text-wrapper-2 {
+  color: #ff4b00;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1932px;
+  white-space: nowrap;
+}
+
+.HOMEPAGE .text-wrapper-3 {
+  color: #ff4b00;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 327px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1932px;
+  white-space: nowrap;
+}
+
+.HOMEPAGE .text-wrapper-4 {
+  color: #ff4b00;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 1313px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1932px;
+  white-space: nowrap;
+}
